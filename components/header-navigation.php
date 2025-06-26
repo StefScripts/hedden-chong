@@ -1,5 +1,10 @@
 <nav class="main-navigation">
-    <ul>
+    <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+    </button>
+    <ul class="nav-menu">
         <li><a href="/our-team/">Our Team</a></li>
         <li><a href="/services.php">Services</a></li>
         <li><a href="/news.php">News</a></li>

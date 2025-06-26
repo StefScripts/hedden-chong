@@ -2,8 +2,9 @@
 <?php include('components/header.php'); ?>
 <?php include('components/header-navigation.php'); ?>
 
-<div class="content-wrapper">
-    <div class="main-content">
+<div class="content-container">
+    <div class="content-wrapper">
+        <div class="main-content">
         <h1>Resources</h1>
 
         <h3><strong>Forms</strong></h3>
@@ -84,12 +85,13 @@
             <li><a href="https://www.bccpa.ca/become-a-cpa/cpa-program/education/">CPA Professional Education
                     Program</a></li>
         </ul>
-    </div>
+        </div>
 
-    <div class="sidebar">
-        <?php include('components/right-sidebar-1.php'); ?>
-        <?php include('components/right-sidebar-2.php'); ?>
-        <?php include('components/right-sidebar-3.php'); ?>
+        <div class="sidebar">
+            <?php include('components/right-sidebar-1.php'); ?>
+            <?php include('components/right-sidebar-2.php'); ?>
+            <?php include('components/right-sidebar-3.php'); ?>
+        </div>
     </div>
 </div>
 

@@ -2,8 +2,9 @@
 <?php include('../components/header.php'); ?>
 <?php include('../components/header-navigation.php'); ?>
 
-<div class="content-wrapper">
-    <div class="main-content">
+<div class="content-container">
+    <div class="content-wrapper">
+        <div class="main-content">
         <h1>Andrew Young, CPA, CA</h1>
 
         <img src="../images/andrew-young-cpa-200x300.jpg" alt="Andrew Young">
@@ -19,12 +20,13 @@
         <p><a href="mailto:ayoung@heddenchong.com">Email Me</a></p>
 
         <p><a href="tel:6043205852">Phone: (604) 320-5852</a></p>
-    </div>
+        </div>
 
-    <div class="sidebar">
-        <?php include('../components/right-sidebar-1.php'); ?>
-        <?php include('../components/right-sidebar-2.php'); ?>
-        <?php include('../components/right-sidebar-3.php'); ?>
+        <div class="sidebar">
+            <?php include('../components/right-sidebar-1.php'); ?>
+            <?php include('../components/right-sidebar-2.php'); ?>
+            <?php include('../components/right-sidebar-3.php'); ?>
+        </div>
     </div>
 </div>
 

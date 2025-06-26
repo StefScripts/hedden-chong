@@ -2,8 +2,9 @@
 <?php include('../components/header.php'); ?>
 <?php include('../components/header-navigation.php'); ?>
 
-<div class="content-wrapper">
-    <div class="main-content">
+<div class="content-container">
+    <div class="content-wrapper">
+        <div class="main-content">
         <h1>Nicole Moore, CPA, CA</h1>
 
         <img src="../images/nicole-moore-cpa-200x300.jpg" alt="Nicole Moore">
@@ -17,12 +18,13 @@
         <p><a href="mailto:nmoore@heddenchong.com">Email Me</a></p>
 
         <p><a href="tel:6043205862">Phone: (604) 320-5862</a></p>
-    </div>
+        </div>
 
-    <div class="sidebar">
-        <?php include('../components/right-sidebar-1.php'); ?>
-        <?php include('../components/right-sidebar-2.php'); ?>
-        <?php include('../components/right-sidebar-3.php'); ?>
+        <div class="sidebar">
+            <?php include('../components/right-sidebar-1.php'); ?>
+            <?php include('../components/right-sidebar-2.php'); ?>
+            <?php include('../components/right-sidebar-3.php'); ?>
+        </div>
     </div>
 </div>
 

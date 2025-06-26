@@ -11,23 +11,28 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f5f5f5;
+    min-height: 100vh;
 }
 
 /* Container and Layout */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
     background-color: #fff;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    min-height: 100vh;
 }
 
 /* Header Styles */
 .header {
     background-color: #1a4b84;
+    border-bottom: 4px solid #d4a017;
+    width: 100%;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px 40px;
     display: flex;
     align-items: center;
-    border-bottom: 4px solid #d4a017;
 }
 
 .header .logo {
@@ -61,9 +66,15 @@ body {
 /* Navigation Styles */
 .main-navigation {
     background-color: #2c5aa0;
-    padding: 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     position: relative;
+    width: 100%;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .nav-menu {
@@ -135,6 +146,12 @@ body {
 }
 
 /* Main Content Area */
+.content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
 .content-wrapper {
     display: flex;
     gap: 30px;
@@ -300,9 +317,15 @@ th {
 .footer {
     background-color: #1a4b84;
     color: white;
-    text-align: center;
-    padding: 30px;
     margin-top: 50px;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
 }
 
 .footer p {
@@ -372,7 +395,7 @@ th {
 }
 
 @media (max-width: 600px) {
-    .header {
+    .header-content {
         flex-direction: column;
         text-align: center;
         padding: 15px 20px;

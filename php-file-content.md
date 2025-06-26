@@ -1,7 +1,9 @@
-**Header Content:**  
+**File names & Content for Components:**
+
+**File name: components\\header.php**  
 \<image: logo\>  			**HEDDEN CHONG LLP			since 1961**
 
-**Header Navigation:**  
+**File name: components\\header-navigation.php**  
 Our Team  
 Services  
 News  
@@ -9,7 +11,7 @@ Client Portal
 Resources  
 Contact
 
-**Right Sidebar 1:**  
+**File name: components\\right-sidebar-1.php**  
 Contact  
 Hedden Chong LLP  
 \#104-3989 Henning Drive  
@@ -18,7 +20,7 @@ Burnaby, BC V5C 6P8
 Ph: 604-320-5850  
 Fx: 604-291-1601
 
-**Right Sidebar 2:**  
+**File name: components\\right-sidebar-2.php**  
 Let us help you
 
 * Tax Planning & Compliance  
@@ -26,21 +28,11 @@ Let us help you
 * Business Valuation  
 * Mergers & Aquisitions
 
-**Right Sidebar 3:**  
+**File name: components\\right-sidebar-3.php**  
 Careers  
 Students:  [apply now](mailto:jobpostings@heddenchong.com)
 
-**Colours:**  
-Header background: \#454545  
-Navigation background: \#FFFFFF  
-Content background: \#FFFFFF  
-Remaining background: \#1E73BE  
-Font: \#454545  
-Logo: \#1C3755  
-H1: \#1177AA  
-H2: \#454545
-
-**File name’s & Content:**
+**File names & Content for Pages:**
 
 File name: index.php
 

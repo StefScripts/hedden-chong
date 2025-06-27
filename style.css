@@ -275,6 +275,19 @@ body {
     text-decoration: underline;
 }
 
+/* Sidebar Logo Widget */
+.logo-widget {
+    text-align: center;
+    padding: 15px;
+}
+
+.sidebar-logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 /* Team Member Pages */
 .main-content img[alt*="CPA"] {
     float: left;
@@ -331,6 +344,16 @@ th {
     padding: 30px;
     text-align: center;
 }
+
+/* .footer-logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    opacity: 0.9;
+} */
+
+
+
 
 .footer p {
     margin-bottom: 10px;

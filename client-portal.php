@@ -19,6 +19,7 @@
             <?php include('components/right-sidebar-1.php'); ?>
             <?php include('components/right-sidebar-2.php'); ?>
             <?php include('components/right-sidebar-3.php'); ?>
+            <?php include('components/right-sidebar-4.php'); ?>
         </div>
     </div>
 </div>

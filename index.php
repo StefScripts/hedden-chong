@@ -30,16 +30,13 @@
             <p>What sets us apart is our deep understanding of business from a management perspective, allowing us to
                 deliver practical solutions in today’s complex global environment.</p>
 
-            <div class="image-container">
-
-                <img src="images/CPA-BC-300x127.jpg" alt="Chartered Professional Accountants of British Columbia">
-            </div>
         </div>
 
         <div class="sidebar">
             <?php include('components/right-sidebar-1.php'); ?>
             <?php include('components/right-sidebar-2.php'); ?>
             <?php include('components/right-sidebar-3.php'); ?>
+            <?php include('components/right-sidebar-4.php'); ?>
         </div>
     </div>
 </div>

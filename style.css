@@ -20,6 +20,11 @@ body {
     min-height: 100vh;
 }
 
+.image-container {
+    /* max-width: 1200px; */
+    margin: 100px auto;
+}
+
 /* Header Styles */
 .header {
     background-color: #1a4b84;

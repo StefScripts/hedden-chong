@@ -1,50 +1,133 @@
-<?php include('components/page-header.php'); ?>
 <?php include('components/header.php'); ?>
-<?php include('components/header-navigation.php'); ?>
+<?php include('components/navigation.php'); ?>
 
 <div class="content-container">
     <div class="content-wrapper">
         <div class="main-content">
-            <h1>Services</h1>
+            <div style="text-align: center; margin-bottom: 4rem;">
+                <h1>Professional Accounting Services</h1>
+                <p style="font-size: var(--font-size-xl); color: var(--color-gray-600); max-width: 700px; margin: 2rem auto 0;">Comprehensive accounting, tax, audit, and business consulting services tailored to your unique needs and delivered by experienced chartered professionals.</p>
+            </div>
 
-            <h2><strong>Tax Planning & Compliance</strong></h2>
+            <!-- Main Services Grid -->
+            <div class="service-grid">
+                <div class="service-card">
+                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">📊</div>
+                        <h3>Tax Planning & Compliance</h3>
+                    </div>
+                    <p>Specialized tax services to help business owners and individuals manage and minimize their taxes with innovative, custom-tailored solutions.</p>
+                    <div style="margin-top: 1.5rem;">
+                        <h4 style="color: var(--color-primary); font-size: var(--font-size-lg); margin-bottom: 1rem;">Our Tax Services Include:</h4>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.5rem; font-size: var(--font-size-sm);">
+                            <div>• Corporate Tax Planning</div>
+                            <div>• Personal Tax Planning</div>
+                            <div>• Estate Tax Planning</div>
+                            <div>• R&D Tax Credits</div>
+                            <div>• Wills and Trusts</div>
+                            <div>• Corporate Reorganizations</div>
+                            <div>• GST/HST, PST and Commodity Tax</div>
+                            <div>• M&A Tax Planning</div>
+                            <div>• CRA Audit Assistance</div>
+                        </div>
+                    </div>
+                </div>
 
-            <p>We provide a wide range of specialized tax services to help business owners and individuals manage and
-                minimize their taxes. We are committed to providing our clients with innovative and custom tailored tax
-                solutions. Key areas where we apply our expertise and planning knowledge include:</p>
+                <div class="service-card">
+                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">📋</div>
+                        <h3>Accounting & Auditing</h3>
+                    </div>
+                    <p>Comprehensive financial statement preparation, review, and audit services for corporations, not-for-profits, partnerships, and proprietorships.</p>
+                    <div style="margin-top: 1.5rem;">
+                        <h4 style="color: var(--color-primary); font-size: var(--font-size-lg); margin-bottom: 1rem;">What We Provide:</h4>
+                        <ul style="margin-left: 0; list-style: none;">
+                            <li style="margin-bottom: 0.5rem;">✓ Financial statement preparation and review</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Bank and lending institution reporting</li>
+                            <li style="margin-bottom: 0.5rem;">✓ CRA compliance reporting</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Shareholder and management reporting</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Private company audits</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Not-for-profit organization audits</li>
+                        </ul>
+                    </div>
+                </div>
 
-            <ul>
-                <li>Corporate Tax Planning</li>
-                <li>Personal Tax Planning</li>
-                <li>Estate Tax Planning</li>
-                <li>Research and Development Tax Credits</li>
-                <li>Wills and Trusts</li>
-                <li>Corporate Reorganizations</li>
-                <li>GST/HST, PST and Commodity Taxation</li>
-                <li>Corporate Acquisitions and Dispositions</li>
-                <li>Revenue Canada Audit Assistance and Negotiations</li>
-            </ul>
+                <div class="service-card">
+                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">📈</div>
+                        <h3>Business Valuation</h3>
+                    </div>
+                    <p>Comprehensive business evaluation services to assess your company's value, internal controls, and operational processes.</p>
+                    <div style="margin-top: 1.5rem;">
+                        <h4 style="color: var(--color-primary); font-size: var(--font-size-lg); margin-bottom: 1rem;">Our Approach:</h4>
+                        <p style="font-size: var(--font-size-base);">We evaluate your business comprehensively, assess internal controls and processes, and provide actionable recommendations to improve efficiency and profitability. Our valuation services support strategic decision-making, succession planning, and transaction planning.</p>
+                    </div>
+                </div>
 
-            <h2><strong>Accounting & Auditing</strong></h2>
+                <div class="service-card">
+                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">🤝</div>
+                        <h3>Mergers & Acquisitions</h3>
+                    </div>
+                    <p>End-to-end M&A support, from initial planning through transaction completion, working closely with your legal advisors.</p>
+                    <div style="margin-top: 1.5rem;">
+                        <h4 style="color: var(--color-primary); font-size: var(--font-size-lg); margin-bottom: 1rem;">Our M&A Services:</h4>
+                        <ul style="margin-left: 0; list-style: none;">
+                            <li style="margin-bottom: 0.5rem;">✓ Transaction planning and structuring</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Due diligence support</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Valuation and financial analysis</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Tax-efficient structuring</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Post-transaction integration support</li>
+                        </ul>
+                    </div>
+                </div>
 
-            <p>The preparation and review of financial statements for corporations and other entities forms a large segment
-                of our practice. These statements are prepared for clients for reporting purposes to banks and lending
-                institutions for financing purposes, compliance with the Canada Revenue Agency and for shareholder/manager
-                monitoring services.</p>
+                <div class="service-card">
+                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">💼</div>
+                        <h3>Business Consulting</h3>
+                    </div>
+                    <p>Strategic business advisory services to help you make informed decisions, optimize operations, and achieve your business goals.</p>
+                    <div style="margin-top: 1.5rem;">
+                        <h4 style="color: var(--color-primary); font-size: var(--font-size-lg); margin-bottom: 1rem;">Consulting Areas:</h4>
+                        <ul style="margin-left: 0; list-style: none;">
+                            <li style="margin-bottom: 0.5rem;">✓ Strategic planning and forecasting</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Financial analysis and reporting</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Internal controls assessment</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Process improvement</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Management advisory services</li>
+                        </ul>
+                    </div>
+                </div>
 
-            <p>Hedden Chong LLP also provides audit services for private companies and not-for-profit organizations and
-                unincorporated entities such as partnerships and proprietorships.</p>
+                <div class="service-card">
+                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">🏢</div>
+                        <h3>Corporate Services</h3>
+                    </div>
+                    <p>Complete corporate services from incorporation through ongoing corporate maintenance and compliance.</p>
+                    <div style="margin-top: 1.5rem;">
+                        <h4 style="color: var(--color-primary); font-size: var(--font-size-lg); margin-bottom: 1rem;">Corporate Solutions:</h4>
+                        <ul style="margin-left: 0; list-style: none;">
+                            <li style="margin-bottom: 0.5rem;">✓ Business incorporation</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Corporate minute books</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Annual filings and compliance</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Corporate structure planning</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Ongoing corporate maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-            <h2><strong>Business Valuation</strong></h2>
-
-            <p>Our firm will evaluate our clients business and assess their internal controls and processes. Depending on
-                what we find, we will make suggestions on how to make that company more efficient and profitable.</p>
-
-            <h2><strong>Mergers & Acquisitions</strong></h2>
-
-            <p>Whether our clients have bought or sold, Hedden Chong LLP is very often involved from start to finish,
-                providing our clients with guidance and advise as well as working with our clients legal advisors to
-                structure the most beneficial method of buying or selling a business.</p>
+            <!-- Contact Section -->
+            <div style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%); color: white; border-radius: var(--radius-xl); padding: 3rem; margin: 4rem 0; text-align: center;">
+                <h2 style="color: white; margin-bottom: 1rem; font-size: var(--font-size-3xl);">Ready to Get Started?</h2>
+                <p style="margin-bottom: 2rem; opacity: 0.9; font-size: var(--font-size-lg); max-width: 600px; margin-left: auto; margin-right: auto;">Contact our team today to discuss your accounting, tax, and business consulting needs. We're here to help you achieve your goals.</p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="/contact.php" class="btn" style="background: white; color: var(--color-primary); font-weight: 600;">Contact Us Today</a>
+                    <a href="/our-team/" class="btn" style="background: rgba(255,255,255,0.2); color: white; border: 2px solid white;">Meet Our Team</a>
+                </div>
+            </div>
         </div>
 
         <div class="sidebar">
@@ -56,4 +139,4 @@
     </div>
 </div>
 
-<?php include('components/page-footer.php'); ?>
+<?php include('components/footer.php'); ?>

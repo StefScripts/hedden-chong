@@ -4,16 +4,27 @@
 <div class="content-container">
     <div class="content-wrapper">
         <div class="main-content">
-            <div style="text-align: center; margin-bottom: 4rem;">
-                <h1>Professional Accounting Services</h1>
-                <p style="font-size: var(--font-size-xl); color: var(--color-gray-600); max-width: 700px; margin: 2rem auto 0;">Comprehensive accounting, tax, audit, and business consulting services tailored to your unique needs and delivered by experienced chartered professionals.</p>
+            <!-- Hero Image for Services Page -->
+            <div class="image-overlay content-image-large" style="margin-bottom: 4rem;">
+                <img src="/images/hero-services.jpg" 
+                     alt="Professional accountants reviewing financial documents and providing consultation services"
+                     style="width: 100%; height: 300px; object-fit: cover;">
+                <div class="image-overlay-text">
+                    <h1 style="color: white; font-size: var(--font-size-4xl); margin-bottom: 1rem;">Professional Accounting Services</h1>
+                    <p style="font-size: var(--font-size-xl); color: white;">Comprehensive accounting, tax, audit, and business consulting services tailored to your unique needs.</p>
+                </div>
             </div>
 
             <!-- Main Services Grid -->
             <div class="service-grid">
                 <div class="service-card">
+                    <!-- Service Image -->
+                    <!-- <img src="/images/tax-planning-documents-calculator.jpg" 
+                         alt="Tax planning documents with calculator and financial charts showing tax compliance services"
+                         style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--radius-base); margin-bottom: 1.5rem;"> -->
+                    
                     <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
-                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">📊</div>
+                        <!-- <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">📊</div> -->
                         <h3>Tax Planning & Compliance</h3>
                     </div>
                     <p>Specialized tax services to help business owners and individuals manage and minimize their taxes with innovative, custom-tailored solutions.</p>
@@ -34,8 +45,13 @@
                 </div>
 
                 <div class="service-card">
+                    <!-- Service Image -->
+                    <!-- <img src="/images/financial-audit-accounting-review.jpg" 
+                         alt="Financial audit and accounting review with professional examining financial statements and reports"
+                         style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--radius-base); margin-bottom: 1.5rem;"> -->
+                    
                     <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
-                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">📋</div>
+                        <!-- <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">📋</div> -->
                         <h3>Accounting & Auditing</h3>
                     </div>
                     <p>Comprehensive financial statement preparation, review, and audit services for corporations, not-for-profits, partnerships, and proprietorships.</p>
@@ -54,7 +70,7 @@
 
                 <div class="service-card">
                     <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
-                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">📈</div>
+                        <!-- <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">📈</div> -->
                         <h3>Business Valuation</h3>
                     </div>
                     <p>Comprehensive business evaluation services to assess your company's value, internal controls, and operational processes.</p>
@@ -66,7 +82,7 @@
 
                 <div class="service-card">
                     <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
-                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">🤝</div>
+                        <!-- <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">🤝</div> -->
                         <h3>Mergers & Acquisitions</h3>
                     </div>
                     <p>End-to-end M&A support, from initial planning through transaction completion, working closely with your legal advisors.</p>
@@ -84,7 +100,7 @@
 
                 <div class="service-card">
                     <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
-                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">💼</div>
+                        <!-- <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">💼</div> -->
                         <h3>Business Consulting</h3>
                     </div>
                     <p>Strategic business advisory services to help you make informed decisions, optimize operations, and achieve your business goals.</p>
@@ -102,7 +118,7 @@
 
                 <div class="service-card">
                     <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
-                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">🏢</div>
+                        <!-- <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; margin-right: 1rem;">🏢</div> -->
                         <h3>Corporate Services</h3>
                     </div>
                     <p>Complete corporate services from incorporation through ongoing corporate maintenance and compliance.</p>
@@ -128,13 +144,6 @@
                     <a href="/our-team/" class="btn" style="background: rgba(255,255,255,0.2); color: white; border: 2px solid white;">Meet Our Team</a>
                 </div>
             </div>
-        </div>
-
-        <div class="sidebar">
-            <?php include('components/right-sidebar-1.php'); ?>
-            <?php include('components/right-sidebar-2.php'); ?>
-            <?php include('components/right-sidebar-3.php'); ?>
-            <?php include('components/right-sidebar-4.php'); ?>
         </div>
     </div>
 </div>

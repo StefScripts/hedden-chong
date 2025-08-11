@@ -1,19 +1,20 @@
 <?php include('../components/header.php'); ?>
 <?php include('../components/navigation.php'); ?>
 
+<!-- Full Width Team Hero Image -->
+<div class="image-overlay" style="width: 100vw; margin-left: calc(-50vw + 50%); margin-bottom: 4rem;">
+    <img src="../images/hero-our-team.jpg" 
+         alt="Professional group photo of Hedden Chong LLP accounting team in modern office setting"
+         style="width: 100%; height: 400px; object-fit: cover;">
+    <div class="image-overlay-text" style="max-width: var(--max-width-container); margin: 0 auto; left: 50%; transform: translateX(-50%); right: auto;">
+        <h1 style="color: white; font-size: var(--font-size-4xl); margin-bottom: 1rem;">Our Expert Team</h1>
+        <p style="font-size: var(--font-size-xl); color: white;">Over 30 dedicated professionals with decades of combined experience serving BC businesses.</p>
+    </div>
+</div>
+
 <div class="content-container">
     <div class="content-wrapper">
         <div class="main-content">
-            <!-- Team Page Hero Image -->
-            <div class="image-overlay content-image-large" style="margin-bottom: 4rem;">
-                <img src="../images/hero-our-team.jpg" 
-                     alt="Professional group photo of Hedden Chong LLP accounting team in modern office setting"
-                     style="width: 100%; height: 300px; object-fit: cover;">
-                <div class="image-overlay-text">
-                    <h1 style="color: white; font-size: var(--font-size-4xl); margin-bottom: 1rem;">Our Expert Team</h1>
-                    <p style="font-size: var(--font-size-xl); color: white;">Over 30 dedicated professionals with decades of combined experience serving BC businesses.</p>
-                </div>
-            </div>
 
             <!-- Team Introduction -->
             <div style="background: var(--color-white); border-radius: var(--radius-xl); padding: 3rem; margin: 3rem 0; box-shadow: var(--shadow-base); border: 1px solid var(--color-gray-100); text-align: center;">

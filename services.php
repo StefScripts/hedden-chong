@@ -1,19 +1,20 @@
 <?php include('components/header.php'); ?>
 <?php include('components/navigation.php'); ?>
 
+<!-- Full Width Hero Image for Services Page -->
+<div class="image-overlay" style="width: 100vw; margin-left: calc(-50vw + 50%); margin-bottom: 4rem;">
+    <img src="/images/hero-services.jpg" 
+         alt="Professional accountants reviewing financial documents and providing consultation services"
+         style="width: 100%; height: 400px; object-fit: cover;">
+    <div class="image-overlay-text" style="max-width: var(--max-width-container); margin: 0 auto; left: 50%; transform: translateX(-50%); right: auto;">
+        <h1 style="color: white; font-size: var(--font-size-4xl); margin-bottom: 1rem;">Professional Accounting Services</h1>
+        <p style="font-size: var(--font-size-xl); color: white;">Comprehensive accounting, tax, audit, and business consulting services tailored to your unique needs.</p>
+    </div>
+</div>
+
 <div class="content-container">
     <div class="content-wrapper">
         <div class="main-content">
-            <!-- Hero Image for Services Page -->
-            <div class="image-overlay content-image-large" style="margin-bottom: 4rem;">
-                <img src="/images/hero-services.jpg" 
-                     alt="Professional accountants reviewing financial documents and providing consultation services"
-                     style="width: 100%; height: 300px; object-fit: cover;">
-                <div class="image-overlay-text">
-                    <h1 style="color: white; font-size: var(--font-size-4xl); margin-bottom: 1rem;">Professional Accounting Services</h1>
-                    <p style="font-size: var(--font-size-xl); color: white;">Comprehensive accounting, tax, audit, and business consulting services tailored to your unique needs.</p>
-                </div>
-            </div>
 
             <!-- Main Services Grid -->
             <div class="service-grid">

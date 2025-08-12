@@ -1,6 +1,5 @@
-<?php include('../components/page-header-subdir.php'); ?>
 <?php include('../components/header.php'); ?>
-<?php include('../components/header-navigation.php'); ?>
+<?php include('../components/navigation.php'); ?>
 
 <div class="content-container">
     <div class="content-wrapper">
@@ -32,4 +31,4 @@
     </div>
 </div>
 
-<?php include('../components/page-footer.php'); ?>
+<?php include('../components/footer.php'); ?>

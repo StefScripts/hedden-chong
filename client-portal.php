@@ -13,16 +13,8 @@
             <a href="https://e-courier.ca/?brand=HeddenChong"><img src="images/clientPortalLogin.png"
                     alt="Client Portal Login"></a>
         </div>
-
-        
     </div>
-    
 </div>
-<div class="sidebar">
-            <!-- <?php include('components/right-sidebar-1.php'); ?>
-            <?php include('components/right-sidebar-2.php'); ?>
-            <?php include('components/right-sidebar-3.php'); ?> -->
-            <?php include('components/right-sidebar-4.php'); ?>
-        </div>
+
 
 <?php include('components/footer.php'); ?>

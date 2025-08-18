@@ -1,10 +1,21 @@
 <?php include('components/header.php'); ?>
 <?php include('components/navigation.php'); ?>
 
+<!-- Full Width Hero Image for Resources Page -->
+<div class="image-overlay" style="width: 100vw; margin-left: calc(-50vw + 50%); margin-bottom: 4rem;">
+    <img src="/images/hero/resources.jpg" 
+         alt="Professional accountants reviewing financial documents and providing consultation services"
+         style="width: 100%; height: 400px; object-fit: cover;">
+    <div class="image-overlay-text" style="max-width: var(--max-width-container); margin: 0 auto; left: 50%; transform: translateX(-50%); right: auto;">
+        <h1 style="color: white; font-size: var(--font-size-4xl); margin-bottom: 1rem;">Accounting Resources</h1>
+        <p style="font-size: var(--font-size-xl); color: white;">Tax forms and other useful links.</p>
+    </div>
+</div>
+
 <div class="content-container">
     <div class="content-wrapper">
         <div class="main-content">
-        <h1>Resources</h1>
+        <!-- <h1>Resources</h1> -->
 
         <h3><strong>Forms</strong></h3>
 
@@ -86,12 +97,12 @@
         </ul>
         </div>
 
-        <div class="sidebar">
+        <!-- <div class="sidebar">
             <?php include('components/right-sidebar-1.php'); ?>
             <?php include('components/right-sidebar-2.php'); ?>
             <?php include('components/right-sidebar-3.php'); ?>
             <?php include('components/right-sidebar-4.php'); ?>
-        </div>
+        </div> -->
     </div>
 </div>
 

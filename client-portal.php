@@ -14,13 +14,15 @@
                     alt="Client Portal Login"></a>
         </div>
 
-        <div class="sidebar">
-            <?php include('components/right-sidebar-1.php'); ?>
+        
+    </div>
+    
+</div>
+<div class="sidebar">
+            <!-- <?php include('components/right-sidebar-1.php'); ?>
             <?php include('components/right-sidebar-2.php'); ?>
-            <?php include('components/right-sidebar-3.php'); ?>
+            <?php include('components/right-sidebar-3.php'); ?> -->
             <?php include('components/right-sidebar-4.php'); ?>
         </div>
-    </div>
-</div>
 
 <?php include('components/footer.php'); ?>

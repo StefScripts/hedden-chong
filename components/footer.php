@@ -1,3 +1,6 @@
+<div class="sidebar">
+    <?php include('components/right-sidebar-4.php'); ?>
+</div>
 </div>
 
 <div class="footer">

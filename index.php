@@ -2,7 +2,7 @@
 <?php include('components/navigation.php'); ?>
 
 <!-- Hero Section with Background Image -->
-<section class="hero-section with-background" style="background-image: linear-gradient(135deg, rgba(15, 20, 25, 0.8) 0%, rgba(26, 35, 50, 0.7) 100%), url('/images/hero-accounting-office-professionals.jpg');">
+<section class="hero-section with-background" style="background-image: linear-gradient(135deg, rgba(15, 20, 25, 0.8) 0%, rgba(26, 35, 50, 0.7) 100%), url('/images/hero/home-accounting-office-professionals.jpg');">
     <div class="hero-content">
         <h1 class="hero-title">Trusted Accounting Excellence Since 1961</h1>
         <p class="hero-subtitle">Professional accounting, audit, tax, and business consulting services delivered by experienced chartered professionals committed to your success.</p>

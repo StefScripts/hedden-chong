@@ -3,7 +3,7 @@
 
 <!-- Full Width Hero Image for Services Page -->
 <div class="image-overlay" style="width: 100vw; margin-left: calc(-50vw + 50%); margin-bottom: 4rem;">
-    <img src="/images/hero-services.jpg" 
+    <img src="/images/hero/services.jpg" 
          alt="Professional accountants reviewing financial documents and providing consultation services"
          style="width: 100%; height: 400px; object-fit: cover;">
     <div class="image-overlay-text" style="max-width: var(--max-width-container); margin: 0 auto; left: 50%; transform: translateX(-50%); right: auto;">
